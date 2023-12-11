@@ -25,9 +25,9 @@ Lucy R. Forrest
 
 
 ## Dependencies & Containers
-PPM v2.0 is used to insert structures in the membrane if the OPM structure for the associated biological assembly is not available
+PPM v2.0 is used to insert structures in the membrane if the OPM structure for the associated biological assembly is not available. For more information, please see the
 [PPM website](https://opm.phar.umich.edu/ppm_server2_cgopm)   
-MUSCLE v3.8.3 is used to align sequences  
+MUSCLE v3.8.3 is used to align sequences. See [Muscle v3 website](https://drive5.com/muscle/downloads_v3.htm)  
 FrTMAlign is used to align structures. See [FrTM-Align website](https://sites.gatech.edu/cssb/fr-tm-align/)  
 Symmetries are calculated with: 
  - [CE-Symm v2.2.2](https://github.com/rcsb/symmetry/releases/tag/symmetry-2.2.2)
