@@ -35,7 +35,7 @@ Symmetries are calculated with:
  - SymD v1.6
  - [AnaNaS v1.1](https://team.inria.fr/nano-d/software/ananas)
 
-These codes are packaged in a Apptainer container available on [github](https://github.com/Lucy-Forrest-Lab/EncoMPASS-containers-deps)
+These dependencies can be copied to and run from a container, instructions for which are available on [github](https://github.com/Lucy-Forrest-Lab/EncoMPASS-containers-deps)
 
 
  
