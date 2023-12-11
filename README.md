@@ -17,7 +17,8 @@ Lucy R. Forrest
  - CE-Symm v2.2.2
  - QuatSymm v2.2.2
  - SymD v1.6
- - AnaNaS v1.1
+ - AnaNaS v1.1  (not currently used for analysis, but available)
+
 #### Multi-step Symmetry Selection (MSSD)
 - We've integrated QuatSymm in the MSSD procedure. We postprocess QuatSymm results to guess the specific repeat range and use the output only if the resulting symmetry has comparable RMSD and TM-score to the one reported by QuatSymm. 
 - Quaternary symmetries with only 1 TM chain in a repeat are now considered acceptable and are reported.
@@ -29,10 +30,10 @@ PPM v2.0 is used to insert structures in the membrane if the OPM structure for t
 MUSCLE v3.8.3 is used to align sequences  
 FrTMAlign is used to align structures. See [FrTM-Align website](https://sites.gatech.edu/cssb/fr-tm-align/)  
 Symmetries are calculated with:
- - CE-Symm v2.2.2
- - QuatSymm v2.2.2
+ - [CE-Symm v2.2.2](https://github.com/rcsb/symmetry/releases/tag/symmetry-2.2.2)
+ - [QuatSymm v2.2.2](https://github.com/rcsb/symmetry/releases/tag/symmetry-2.2.2)
  - SymD v1.6
- - AnaNaS v1.1
+ - [AnaNaS v1.1](https://team.inria.fr/nano-d/software/ananas)
 
 ## Installation Notes
 
