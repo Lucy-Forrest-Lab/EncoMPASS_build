@@ -1,0 +1,208 @@
+# Defined locations -----------------------------------------------------------
+# WARNING: This is a system file. Do not edit or move
+# PARSING: Fields are separated by " : ".
+#          Lines with one field determine the sector of the location dict.
+#          The sector FSYSPATH is defined just after the FSYS sector is parsed.
+#          Lines with two fields define a key-value pair.
+#          Initial tabs are part of the key, and they specify the dependence of
+#          the folder.
+#          Values can be composed by two subfields divided by ' + '. The first
+#          field is interpreted as a keyword of the FSYSPATH sector. The second
+#          is interpreted as plain text.
+# -----------------------------------------------------------------------------
+
+
+# File system for ensembles of structures =====================================
+TREE
+str : structures
+seq : sequences
+aln : alignments
+	seqaln : seq_alns
+	straln : str_alns
+
+
+# Main file system ============================================================
+# The tag <main> will be replaced with the address of the database
+FSYSPATH
+src : <src>
+main : <main>
+	database : database
+		selection : selection
+			whole : whole_structs
+			chains : chains
+			old : .old
+		alns : alignments
+			stralns : stralns
+			strseqalns : str_seqalns
+			seqseqalns : seq_seqalns
+	ENCpdbs : EncoMPASS_structures
+	source : source_files
+		PDB : PDB
+			PDBpdbs : pdb
+			PDBmmcifs : mmcif
+			PDBobs : obsolete_pdb
+			PDBfastas : fasta
+			PDBxmls : xml
+			PDBjsons : json
+			PDBstats : statistics
+		PDBTM : PDBTM
+			PDBTMpdbs : pdb
+			PDBTMxmls : xml
+		OPM : OPM
+			OPMpdbs : pdb
+			OPMjsons : json
+		UniProt : UniProt
+	logs : logs
+		cache : cache
+			TMPcoords : tmp_coords
+		locusts_log : locusts
+		symmetry : symmetry
+			ananas_log : ananas
+			cesymm_log : cesymm
+			cesymm_from_symd_log : cesymm_from_symd
+			cesymm_low_thr_log : cesymm_low_thr
+			cesymm_minlen_log : cesymm_minlen
+			cesymm_order_log : cesymm_order
+			cesymm_quat_minlen_log : cesymm_quat_minlen
+			cesymm_rmsd_2_5_log : cesymm_rmsd_2_5
+			cesymm_rmsd_3_log : cesymm_rmsd_3
+			mssd_log : mssd
+			neighbors_log : neighbors
+			images_cesymm_symd_log : images_cesymm_symd
+			images_transfer_log : images_transfer
+			quatsymm_log : quatsymm
+			symd_log : symd
+			transfer_log : transfer
+	symmetries : symmetries
+		ananas : ananas
+		cesymm : cesymm
+		cesymm_from_symd : cesymm_from_symd
+		cesymm_low_thr : cesymm_low_thr
+		cesymm_minlen : cesymm_minlen
+		cesymm_order : cesymm_order
+		cesymm_quat_minlen : cesymm_quat_minlen
+		cesymm_rmsd_2_5 : cesymm_rmsd_2_5
+		cesymm_rmsd_3 : cesymm_rmsd_3
+		quatsymm : quatsymm
+			quatsymm_pngs : pngs
+			quatsymm_jsons : jsons
+			quatsymm_super : super
+		mssd : mssd
+		neighbors : neighbors
+		symd : symd
+		symmtemp : temp
+		transfer : transfer
+	webarchive : webarchive
+		3dmol_whole : whole_structs_json
+		3dmol_chains : chains_json
+		analysis_wholejsons : analysis_whole_structs_json
+		analysis_wholepngs : analysis_whole_structs_pngs
+		analysis_wholesuper : analysis_whole_structs_super
+		analysis_chainsjsons : analysis_chains_json
+		analysis_chainspngs : analysis_chains_pngs
+		analysis_chainssuper : analysis_chains_super
+		symm_wholejsons : symm_whole_structs_json
+		symm_wholepngs : symm_whole_structs_pngs
+		symm_chainsjsons : symm_chains_json
+		symm_chainspngs : symm_chains_pngs
+		transfer_chainsjsons : transfer_chains_json
+		transfer_chainspngs : transfer_chains_pngs
+		transfer_chainssuper : transfer_chains_super
+	analysis : analysis
+		stfig : static_figures
+		ancache : analysis_cache
+		analyses : analysis
+			images : images
+				images_figs : images_figs
+					images_figs_whole : whole_structs
+					images_figs_chain : chains
+				images_pml : images_pymolscripts
+					images_pml_whole : whole_structs
+					images_pml_chain : chains
+			estimators : estimators
+			nlists : neighbor_lists
+				seqneighs : seq_neighbors
+				strneighs : str_neighbors
+				totneighs : tot_neighbors
+			distributions : distributions
+				distributions_figs : distributions_figs
+				distributions_data : distributions_data
+			densityscatter : densityscatter
+				densityscatter_figs : densityscatter_figs
+				densityscatter_maps : densityscatter_maps
+			polar : polarplots
+				polar_figs : polarplots_figs
+				polar_data : polarplots_data
+				polar_maps : polarplots_maps
+			DSSP : DSSP
+			topologies : topologies
+				topologies_figs : topologies_figs
+				topologies_data : topologies_data
+			databasewide : databasewide_graphs
+				
+
+# System files ================================================================
+SYSFILES
+H_options : main + .options.dat
+H_filters : main + .filters.dat
+H_locations : main + .locations.dat
+H_topologytype : database + .topology_classification.dat
+H_instraln : database + .straln_instructions.dat
+H_scheduledalns : database + .scheduled_alignments.dat
+H_toporigapollo : main + .toporigapollo.txt
+OPMlastddate : OPM + .lastdownload_date.txt
+OPMarchive : OPM + OPM_archive.dat
+excludedwhole : whole + exclusions.txt
+excludedchains : chains + exclusions.txt
+excludedstralnchains : chains + exclusions_from_instructions.txt
+chaindata : chains + chain_database.txt
+missingpdbfiles : PDBpdbs + missing_files.txt
+missingfastafiles : PDBfastas + missing_files.txt
+webwhole : webarchive + web_archive_whole.xml
+webchain : webarchive + web_archive_chain.xml
+runinppm : main + .run_in_ppm.pkl
+OPMdata : main + .opm_archive.pkl
+neighborstable : main + neighbors_table.txt
+neighborstlist : main + neighbors_tot_list.txt
+neighborsselist : main + neighbors_seq_list.txt
+neighborsstlist : main + neighbors_str_list.txt
+symmwebwhole : webarchive + symmetry_web_archive_whole.xml
+symmwebchain : webarchive + symmetry_web_archive_chain.xml
+ignoredpasscodes : src + ignored_passport_codes.txt
+slurmtemplate : src + template_manager.txt
+seqid_py : src + seqid.py
+pdbquery : src + pdb_query.json
+pdbdownload : src + batch_download.sh
+pdbatomdict : src + pdb_atom_dictionary.txt
+delcodes : src + deletion_codes.txt
+delmsg : src + deletion_messages.txt
+OPMreprchart : OPM + representatives.txt
+summarytable : main + summary_table.txt
+structurewise_table : main + structurewise_table.txt
+uniprot_all : UniProt + all_entries.fasta
+data_structure_template : cache + str_data_template.json
+sifts_uniprot : UniProt + pdb_chain_uniprot.tsv
+# pdb_tmchains : symmetry + .pdb_tmchains.dat
+# opmfullstruct : opmrepofullstruct + opm_data.pkl
+cesymm_completed : cesymm + cesymm_completed.list
+symd_completed : symd + symd_completed.list
+mssd_symmetries_whole : mssd + mssd_symmetries_whole
+mssd_symmetries_chains : mssd + mssd_symmetries_chains
+OPMsecondary : OPMjsons + secondary.json
+background : databasewide + densitylines.png
+squashin : src + squashfs_include_list.txt
+
+# External addresses ==========================================================
+# Other external addresses written in the instruction file and figuring under
+# the sector PATHS of the "options" dict will be reported here as well
+EXTERNAL
+opmliburl : http://opm.phar.umich.edu/classes_dl.php?type=1
+opmrefsemiurl : http://opm.phar.umich.edu/protein.php?pdbid=
+opmrelsemiurl : http://opm.phar.umich.edu/protein.php?extrapdb=
+opmpdbsemiurl : http://opm.phar.umich.edu/pdb/
+pdbmainsemiurl_UPPER : http://www.rcsb.org/pdb/explore/explore.do?structureId=
+pdbpagestaticurl : https://www.rcsb.org/structure/
+pdbsemiurl_UPPERpdbgz : http://www.rcsb.org/pdb/files/
+pdbobsurl_UPPER : http://www.rcsb.org/pdb/explore/obsolete.do?obsoleteId=
+pdbfastasemiurl_UPPER : http://www.rcsb.org/pdb/download/downloadFastaFiles.do?structureIdList=
+pdbfastasemiurl_ending : &compressionType=uncompressed

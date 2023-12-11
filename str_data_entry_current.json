@@ -1,0 +1,418 @@
+{
+	"FixedDict::ENCOMPASS" : {
+		"name" : "",
+		"class" : "",
+		"n_of_chains" : "",
+		"n_of_tmchains" : "",
+		"n_of_aas" : "",
+		"resolution" : "",
+		"FixedList::links" : [
+			{
+				"pdb" : "",
+				"opm" : "",
+				"pdbtm" : ""
+			}
+		],
+		"FixedList::structure_relationships" : [
+			{
+				"chain_name" : "",
+				"tm_domains" : "",
+				"seq_neighbors" : "",
+				"str_neighbors" : "",
+				"all_neighbors" : "",
+				"main_symmetry" : "",
+				"polar_graph" : "",
+				"seq_str_similarity_graph" : "",
+				"str_variability_graph" : "",
+				"superposition_file" : "",
+				"CA_CA_dist_file" : "",
+				"similarity_estimators_file" : ""
+			}
+		],
+		"FixedDict::quaternary" : {
+			"FixedDict::CE-Symm" : {
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"unrefined_rmsd" : "",
+				"unrefined_tmscore" : "",
+				"seed" : "",
+				"repeat_length" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"FixedDict::data_files" : {
+					"xml_output" : "",
+					"stdout" : "",
+					"axes" : "",
+					"fasta" : ""
+				},
+				"visualization_script" : ""
+			},
+			"FixedDict::SymD" : {
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"initial_shift" : "",
+				"is_angle" : "",
+				"is_translation" : "",
+				"ztmscore" : "",
+				"FixedDict::data_files" : {
+					"info" : "",
+					"trfm" : "",
+					"best_fasta" : ""
+				},
+				"visualization_script" : ""
+			},
+			"FixedDict::MSSD" : {
+				"chain_order" : [],
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"repeat_length" : "",
+				"n_of_aligned_residues" : "",
+				"angle_with_membrane_normal" : "",
+				"topology" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"FixedDict::data_files" : {
+					"xml_output" : "",
+					"stdout" : "",
+					"axes" : "",
+					"fasta" : ""
+				},
+				"visualization_script" : "",
+				"superposition_script" : ""
+			},
+			"FixedDict::Transfer" : {
+				"template" : "",
+				"template_order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"repeat_length" : "",
+				"n_of_aligned_residues" : "",
+				"angle_with_membrane_normal" : "",
+				"topology" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"visualization_script" : "",
+				"superposition_script" : ""
+			}
+		},
+		"FixedDict::internal" : {
+			"FixedDict::CE-Symm" : {
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"unrefined_rmsd" : "",
+				"unrefined_tmscore" : "",
+				"seed" : "",
+				"repeat_length" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"FixedDict::data_files" : {
+					"xml_output" : "",
+					"stdout" : "",
+					"axes" : "",
+					"fasta" : ""
+				},
+				"visualization_script" : ""
+			},
+			"FixedDict::SymD" : {
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"initial_shift" : "",
+				"is_angle" : "",
+				"is_translation" : "",
+				"ztmscore" : "",
+				"FixedDict::data_files" : {
+					"info" : "",
+					"trfm" : "",
+					"best_fasta" : ""
+				},
+				"visualization_script" : ""
+			},
+			"FixedDict::MSSD" : {
+				"chain_order" : [],
+				"order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"repeat_length" : "",
+				"n_of_aligned_residues" : "",
+				"angle_with_membrane_normal" : "",
+				"topology" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"FixedDict::data_files" : {
+					"xml_output" : "",
+					"stdout" : "",
+					"axes" : "",
+					"fasta" : ""
+				},
+				"visualization_script" : "",
+				"superposition_script" : ""
+			},
+			"FixedDict::Transfer" : {
+				"template" : "",
+				"template_order" : [],
+				"angle" : [],
+				"translation" : [],
+				"rmsd" : "",
+				"tmscore" : "",
+				"coverage" : "",
+				"n_of_repeats" : "",
+				"n_of_levels" : "",
+				"repeat_length" : "",
+				"n_of_aligned_residues" : "",
+				"angle_with_membrane_normal" : "",
+				"topology" : "",
+				"FixedList::repeats" : [
+					{
+						"sub_repeats" : [],
+						"repeat_image" : ""
+					}
+				],
+				"visualization_script" : "",
+				"superposition_script" : ""
+			}
+		},
+		"species" : "",
+		"FixedList::classification" : [
+			{
+				"method" : "",
+				"keywords" : [],
+				"classification" : []
+			}
+		],
+		"FixedDict::structure" : {
+			"experiment" : "",
+			"FixedDict::quality" : {
+				"metric" : "",
+				"value" : ""
+			},
+			"redundant_chains" : {},
+			"UniProt_stoichiometry" : {},
+			"kchains" : [],
+			"ktmchains" : [],
+			"FixedList::chains" : [
+				{ 
+					"n_of_residues" : "",
+					"expression_sequence" : "",
+					"sequence" : "",
+					"residues" : [],
+					"is_TM" : "",
+					"ss_coverage" : "",
+					"UniProt_acc" : "",
+					"FixedDict::TM_regions" : {
+						"TM_regions_extrema" : [],
+						"TM_coverage" : "",
+						"Nterm_length" : "",
+						"middle_linkers_length" : "",
+						"Cterm_length" : "",
+						"ss_coverage_of_TMareas" : ""
+					},
+					"corresponding_sequence_database" : "",
+					"kTEs" : [],
+					"FixedList::TEs" : [
+						{
+							"ss_type" : "",
+							"residues_term" : [],
+							"TE_score" : "",
+							"TM_score" : "",
+							"is_TM" : ""
+						}
+					]
+				}
+			]
+		},
+		"lim_inf" : "",
+		"lim_sup" : "",
+		"reliability_class" : "",
+		"coordinate_file" : "",
+		"cache_coordinate_file" : ""
+	}, 
+	"FixedDict::FROM_OPM" : {
+		"name" : "",
+		"description" : "",
+		"comments" : "",
+		"resolution" : "",
+		"species" : "",
+		"FixedDict::family" : {
+			"name" : "",
+			"tcdb" : "",
+			"pfam" : ""
+		},
+		"FixedDict::superfamily" : {
+			"name" : "",
+			"tcdb" : "",
+			"pfam" : ""
+		},
+                "classtype" : "",
+		"thickness" : "",
+		"thicknesserror" : "",
+                "subunit_segments" : "",
+		"ksubunits" : [],
+		"FixedList::subunits" : [
+			{ 
+				"tilt" : "",
+				"segment" : []
+			}
+		],
+		"primary_representation" : "",
+		"FixedList::secondary_representations" : [
+			{
+				"id" : "",
+				"pdbid" : ""
+			}
+		],
+		"uniprotcodes" : [],
+		"coordinate_file" : "",
+		"cache_coordinate_file" : "",
+		"FixedDict::analysis" : {
+			"seqid_mtx" : [],
+			"seqid_legend" : [],
+			"kchain_copies" : [],
+			"FixedList::chain_copies" : [
+				{
+					"list_copies" : []
+				}
+			]
+		}
+	}, 
+	"FixedDict::FROM_PDBTM" : {
+		"FixedDict::obsolescence" : {
+			"replaced_by" : "",
+			"replacement_of" : ""
+		},
+		"xml_file" : "",
+		"coordinate_file" : "",
+		"cache_coordinate_file" : ""
+	},
+	"FixedDict::FROM_PDB" : {
+		"FixedList::biological_assemblies" : [
+			{
+				"method" : "",
+				"description" : "",
+				"FixedList::transformations" : [
+					{
+						"chains" : [],
+						"operators" : []
+					}
+				]
+			}
+		],
+		"FixedList::translrots" : [
+			{
+				"matrix" : [],
+				"vector" : []
+			}
+		],
+		"ktranslrots" : [],
+		"FixedList::polymers" : [
+			{
+				"chain" : "",
+				"sequence" : "",
+				"uniprot_acc" : "",
+				"taxonomy" : ""
+			}
+		],
+		"FixedList::database_reference" : [
+			{
+				"chain" : "",
+				"db_access" : "",
+				"pdb_start" : "",
+				"pdb_end" : "",
+				"db_start" : "",
+				"db_end" : ""
+			}	
+		],
+		"FixedDict::analysis" : {
+			"seqid_mtx" : [],
+			"seqid_legend" : [],
+			"kchain_copies" : [],
+			"FixedList::chain_copies" : [
+				{
+					"list_copies" : []
+				}
+			]
+		},
+		"ss_class" : "",
+		"chains_with_coords" : [],
+		"resolution" : "",
+		"name" : "",
+		"title" : "",
+		"pdb_id" : "",
+		"experimental_method" : "",
+		"n_of_atoms" : "",
+		"n_of_residues" : "",
+		"n_of_entities" : "",
+		"reference" : "",
+		"release_date" : "",
+		"last_modification_date" : "",
+		"deposition_date" : "",
+		"coordinate_file" : "",
+		"cache_coordinate_file" : ""
+	},
+	"FixedList::PASSPORT" : [
+		{
+			"location" : "",
+			"message" : "",
+			"short_message" : "",
+			"date" : ""
+		}
+	],
+	"status" : [],
+	"delete_keyword" : "",
+	"present_cache" : ""
+}

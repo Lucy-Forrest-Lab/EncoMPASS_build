@@ -1,0 +1,7 @@
+scan_OPM_zero_tmsegments	Monotopic
+combine_sources_delled   	Filtered
+post_insertion_analysis_0tmr	Monotopic
+post_insertion_analysis_note	Monotopic
+structure_sorter_unkerr1	Unknown 
+check_whole_structures_nocoord 	Filtered
+decision_decel           	Filtered

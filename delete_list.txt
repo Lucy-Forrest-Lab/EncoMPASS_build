@@ -1,0 +1,188 @@
+1vvk	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+2ixw	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+2ixx	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+3hqk	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+3wxw	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+4ftp	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+4j05	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+4prc	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+5dqx	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+5vkp	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6d4j	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6dm2	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6h7k	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6i2l	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpu	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpv	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpw	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpx	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpy	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kpz	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6kq0	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6nwf	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+6qwj	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+7ddg	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+7ddj	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+7evx	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+7lj7	Deprecated	Obsolete PDB code for which OPM still has a valid entry
+2oau	Distorting	Curved membrane
+2vv5	Distorting	Curved membrane
+2zw3	Distorting	Double membrane
+3m9c	Distorting	Curved membrane
+3nb3	Distorting	ompA in virion
+3rko	Distorting	Curved membrane
+3t9n	Distorting	Curved membrane
+3udc	Distorting	Curved membrane
+4age	Distorting	Curved membrane
+4agf	Distorting	Curved membrane
+4hw9	Distorting	Curved membrane
+4hwa	Distorting	Curved membrane
+5aji	Distorting	Curved membrane
+5h11	Distorting	Double membrane
+5h1r	Distorting	Double membrane
+5ng5	Distorting	Curved membrane
+5nik	Distorting	Double membrane
+5nil	Distorting	Double membrane
+5o66	Distorting	Curved membrane 
+5v5s	Distorting	Double membrane
+5z10	Distorting	Curved membrane
+6b2z	Distorting	Curved membrane
+6b3r	Distorting	Curved membrane
+6b8h	Distorting	Curved membrane
+6bpz	Distorting	Curved membrane
+6g72	Distorting	Curved membrane
+6i97	Distorting	Two beta-barrels fused at their TonB fragments
+6iok	Distorting	Double membrane
+6iol	Distorting	Double membrane
+6jnf	Distorting	Curved membrane
+6k7x	Distorting	Curved membrane
+6k7y	Distorting	Curved membrane
+6kg7	Distorting	Curved membrane
+6kkr	Distorting	Curved membrane
+6kkt	Distorting	Curved membrane
+6kku	Distorting	Curved membrane
+6lom	Distorting	Double membrane
+6lqi	Distorting	Curved membrane
+6m22	Distorting	Curved membrane
+6m23	Distorting	Curved membrane
+6mhq	Distorting	Double membrane
+6mhy	Distorting	Double membrane
+6nph	Distorting	Curved membrane
+6npk	Distorting	Curved membrane
+6npl	Distorting	Curved membrane
+6o58	Distorting	Curved membrane
+6pwn	Distorting	Curved membrane
+6pwo	Distorting	Curved membrane
+6pwp	Distorting	Curved membrane
+6pzt	Distorting	Curved membrane
+6rld	Distorting	Curved membrane
+6s3k	Distorting	Curved membrane
+6ta5	Distorting	Double membrane
+6ta6	Distorting	Double membrane
+6tt7	Distorting	Curved membrane
+6ucu	Distorting	Curved membrane
+6ucv	Distorting	Curved membrane
+6urt	Distorting	Curved membrane
+6uvr	Distorting	Double membrane
+6uvs	Distorting	Double membrane
+6uzh	Distorting	Curved membrane
+6vyk	Distorting	Curved membrane
+6vyl	Distorting	Curved membrane
+6vym	Distorting	Curved membrane
+6wbn	Distorting	Double membrane
+6z16	Distorting	Curved membrane
+6za9	Distorting	Curved membrane
+6zbb	Distorting	Double membrane
+6ziq	Distorting	Curved membrane
+6ztq	Distorting	Curved membrane
+6zyd	Distorting	Curved membrane
+7a23	Distorting	Curved membrane
+7ain	Distorting	Curved membrane
+7aio	Distorting	Curved membrane
+7aip	Distorting	Curved membrane
+7air	Distorting	Curved membrane
+7b0n	Distorting	Curved membrane
+7ck6	Distorting	Curved membrane
+7cp9	Distorting	Curved membrane
+7d14	Distorting	Curved membrane
+7d8z	Distorting	Curved membrane
+7d90	Distorting	Curved membrane
+7d99	Distorting	Curved membrane
+7jjp	Distorting	Double membrane
+7jkc	Distorting	Double membrane
+7jm9	Distorting	Double membrane
+7jmc	Distorting	Double membrane
+7jmd	Distorting	Double membrane
+7jn0	Distorting	Double membrane
+7jn1	Distorting	Double membrane
+7jlw	Distorting	Double membrane
+7k02	Distorting	Curved membrane
+7onj	Distorting	Curved membrane
+7oo8	Distorting	Curved membrane
+7ooa	Distorting	Curved membrane
+1orq	Problematic	Crystallographic artifact
+1ors	Problematic	Crystallographic artifact
+5uhq	Problematic	Crystallographic artifact
+6x34	Problematic	File causes many issues of unknown origin
+7joz	Problematic	Residue indexing problem invalidates TM analysis
+7p2l	Problematic	Residue indexing problem invalidates TM analysis
+1msr	Theoretical	Theoretical model
+1psl	Theoretical	Theoretical model
+1xnu	Theoretical	Theoretical model
+1ay2	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1fdm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1hgv	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1hgz	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1hh0	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifd	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifi	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifj	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifk	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifl	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifn	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ifp	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1mzt	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1pfi	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1pfj	Unclear 	Monotopic: human general transcription factor, not a membrane protein
+1pjf	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ql1	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1ql2	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+1qoy	Unclear 	Hemolysin E water-soluble form, not a membrane protein
+1zn5	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2c0w	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2cpb	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2cps	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2hi2	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2hi5	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2hil	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2ifm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2ifn	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2ifo	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2ksj	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2m8r	Unclear 	Pre-fusion syntaxin 1A NMR complex with unclear assembly
+2mjz	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2pil	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+2xkm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+3ifm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+3j0c	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+4ifm	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5kua	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5kyh	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5h37	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5o4u	Unclear 	Archaeal propulsion machinery, possibly normally surrounded by other proteins, because inserts in a tilt
+5vxx	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5vxy	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+5wda	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+63l1	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6a7f	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6ek4	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6gv9	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6nav	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6tup	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6tuq	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6w8u	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6w8x	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6xxd	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+6xxe	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex
+7jsv	Unclear 	Bacteriophage, virus coat protein or pilin: not a classical membrane-spanning complex

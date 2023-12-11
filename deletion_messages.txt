@@ -1,0 +1,8 @@
+Deprecated	"because its code was deprecated by the Protein Databank"
+Distorting	"because it is incompatible with a flat membrane, as required for assigning transmembrane elements"
+Filtered	"because it does not correspond to the classification criteria of EncoMPASS"
+Monotopic	"because it does not contain any membrane-spanning segments"
+Unclear 	"because it forms an assembly with unclear membrane insertion behavior"
+Theoretical	"because it is a theoretical model not an experimentally derived structure"
+Problematic	“because the coordinate file contains a crystallographic artifact or indexing issue”
+Unknown 	"for unknown reasons. Please contact the EncoMPASS team if you believe this is an error"

@@ -1,0 +1,20 @@
+#DefineLocationKeyword	#MatchCriteria(ls)
+database
+analysis
+webarchive
+ananas
+cesymm
+cesymm_from_symd
+cesymm_low_thr
+cesymm_minlen
+cesymm_order
+cesymm_quat_minlen
+cesymm_rmsd_2_5
+cesymm_rmsd_3
+quatsymm
+quatsymm_pngs
+quatsymm_jsons
+quatsymm_super
+mssd
+symd
+transfer
