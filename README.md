@@ -32,7 +32,7 @@ FrTMAlign is used to align structures. See [FrTM-Align website](https://sites.ga
 Symmetries are calculated with: 
  - [CE-Symm v2.2.2](https://github.com/rcsb/symmetry/releases/tag/symmetry-2.2.2)
  - [QuatSymm v2.2.2](https://github.com/rcsb/symmetry/releases/tag/symmetry-2.2.2)
- - SymD v1.6
+ - [SymD v1.6](https://ccrod.cancer.gov/confluence/display/CCRLEE/SymD+Download)
  - [AnaNaS v1.1](https://team.inria.fr/nano-d/software/ananas)
 
 These dependencies can be copied to and run from a container, instructions for which are available on [github](https://github.com/Lucy-Forrest-Lab/EncoMPASS-containers-deps)
