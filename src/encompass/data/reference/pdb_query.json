@@ -1,0 +1,85 @@
+{
+	entries(entry_ids: [<PDBI>]) {
+		struct {
+			title
+		}
+		rcsb_entry_container_identifiers {
+			entry_id
+		}
+		rcsb_primary_citation {
+			rcsb_authors
+			title
+			journal_abbrev
+			year
+		}
+		exptl {
+			method
+		}
+		polymer_entities {
+			entity_poly {
+				pdbx_strand_id
+				pdbx_seq_one_letter_code_can
+			}
+			rcsb_polymer_entity_container_identifiers {
+				uniprot_ids
+			}
+			rcsb_entity_source_organism {
+				ncbi_scientific_name
+			}
+			rcsb_id
+			polymer_entity_instances {
+				rcsb_polymer_entity_instance_container_identifiers {
+					asym_id
+					auth_asym_id
+				}
+			}
+		}
+		refine {
+			ls_d_res_high
+			ls_R_factor_obs
+			ls_R_factor_R_free
+		}
+		pdbx_database_status {
+			recvd_initial_deposition_date
+		}
+		assemblies {
+			pdbx_struct_assembly {
+				id
+				details
+				method_details
+				oligomeric_details
+				oligomeric_count
+			}
+			pdbx_struct_assembly_gen {
+				assembly_id
+				oper_expression
+				asym_id_list
+			}
+			pdbx_struct_oper_list {
+				id
+				type
+				name
+				symmetry_operation
+				vector_1
+				vector_2
+				vector_3
+				matrix_1_1
+				matrix_1_2
+				matrix_1_3
+				matrix_2_1
+				matrix_2_2
+				matrix_2_3
+				matrix_3_1
+				matrix_3_2
+				matrix_3_3
+			}
+			rcsb_struct_symmetry {
+				clusters {
+					members {
+						asym_id
+					}
+				}
+			}
+		}
+	}
+}

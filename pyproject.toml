@@ -1,0 +1,65 @@
+[project]
+name = "encompass"
+version = "1.1.0"
+description = "Tools to build and analyze the EncoMPASS membrane protein database."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Antoniya Aleksandrova"},
+  { name = "Edoardo Sarti"},
+  { name = "Lucy Forrest"}
+]
+
+# Core things that almost everything uses
+dependencies = [
+  "numpy",
+  "pandas",
+  "biopython",
+  "requests",
+]
+
+[project.urls]
+"Homepage" = "https://encompass.ninds.nih.gov/"
+"Source" = "https://github.com/Lucy-Forrest-Lab/EncoMPASS_build"
+"Issue Tracker" = "https://github.com/Lucy-Forrest-Lab/EncoMPASS_build/issues"
+"EncoMPASS Database" = "https://encompass.ninds.nih.gov/"
+"Documentation" = "https://github.com/Lucy-Forrest-Lab/EncoMPASS_build/wiki"
+
+[project.optional-dependencies]
+symmetry = [
+  "scipy",
+  "matplotlib",
+  "scikit-learn",
+  "pympler",
+  "selenium",
+  "locusts",
+]
+
+site-db = [
+  "SQLAlchemy",
+  "psycopg2-binary",
+]
+
+dev = [
+  "pytest",
+  "pytest-cov",
+]
+
+all = [
+  "scipy",
+  "matplotlib",
+  "scikit-learn",
+  "pympler",
+  "selenium",
+  "locusts",
+  "SQLAlchemy",
+  "psycopg2-binary",
+]
+
+[project.scripts]
+encompass = "encompass.cli:main"
+
+
+
+

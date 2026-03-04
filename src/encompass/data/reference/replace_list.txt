@@ -1,0 +1,34 @@
+1uaz	OPM	archeorhodopsin
+1vgo	OPM 	n.a.
+1wpg	OPM 	ca-atpase
+2y5y	OPM 	LacY 'dimer'
+3b5x	OPM 	MsbB
+3dh4	OPM 	SGLT
+3j1r	OPM 	pilin filaments <<--- perhaps delete instead - see Biological Assembly??? --->>
+3j7r	OPM 	ribosome with weird subunit placement
+4ea3	OPM 	gpcr dimer
+4ntw	OPM 	monotopic but poorly reinserted, use OPM then exclude!
+4ntx	OPM 	monotopic but poorly reinserted, use OPM then exclude!
+4nty	OPM 	monotopic but poorly reinserted, use OPM then exclude!
+4uqq	OPM 	glutamate receptor
+4wgv	OPM 	DMT wrong assembly
+4wz7	OPM 	missing DUMs
+5abb	OPM 	holo translocon, discrepancies
+5dn6	OPM 	missing DUMs
+5fl7	OPM 	missing DUMs
+5xnn	OPM 	missing DUMs
+5xno	OPM 	missing DUMs
+6f36	OPM 	missing DUMs
+5u4w	OPM 	zika capsid
+5v54	OPM 	GPCR assembly
+5v56	OPM 	GPCR assembly
+5v57	OPM 	GPCR assembly
+5vms	OPM 	KCNQ channel, should be tetramer
+6amx	OPM 	ABC transporter missing TM segments; 6m96 is complete
+6fti	OPM 	ribosome with weird subunit placement 
+6ftj	OPM 	ribosome with weird subunit placement
+6g6u	OPM 	dimer of VDAC
+6nhw	OPM 	tumor necrosis factor, wrong assembly 
+6nhy	OPM 	tumor necrosis factor, wrong assembly
+6o2o	OPM 	pore-forming beta-toxin with wrong tilt
+6y7f	OPM 	fatty acid elongase, should be monomer

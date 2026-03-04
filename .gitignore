@@ -1,0 +1,17 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+
+# Packaging metadata
+*.egg-info/
+
+# Local debug scripts
+ENCOMPASS_DEBUG*
+
+
+lucy_enc_env
+requirements_thelma.txt
+*.png
+*.log
+*.env
+*.venv

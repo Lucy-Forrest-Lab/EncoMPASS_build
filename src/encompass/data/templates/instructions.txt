@@ -1,0 +1,67 @@
+## GENERAL
+hpc		        False
+main_code	    'short task name'
+dst		        '<path to data structure template, e.g. str_data_entry_current.json>'  # Data structure template
+
+## LOCAL
+np		        <number of processors to use>
+
+## HPC
+host		    '<name of HPC cluster>'
+hpcdir		    '<path to the working directory on the HPC>'
+shdir		    ''
+nodescratch	    'lscratch'
+partition	    '<name of HPC partition>'
+walltime	    '<how long to allow to run>'
+constraint	    '<type of nodes>'
+nodes		    <how many nodes>
+hpctpc 		    <how many tasks per core>
+cpn		        <how many cores each node should have>
+nodemem		    <how many GB of RAM each node should have>
+dtp		        '<path to data_transfer_protocol.sh>'
+email		    '<email>'
+hpcactipy       '<path to a python environment /bin/activate script'
+#extracmds	    'module load python'
+#extracmds	    'export SINGULARITY_BINDPATH='$SINGULARITY_BINDPATH,/data/Encompass/'
+
+
+# SINGULARITY
+## LOCAL
+sing		    'singularity'
+container       '<path to a local copy of the EncoMPASS container, e.g.Ubuntu1804-EncoMPASS-2024-10-29.sif>'
+singmod 	    'module load singularity'
+
+## HPC
+hpcsing         'singularity'
+hpccontainer   	'<path to an HPC copy of the EncoMPASS container, e.g.Ubuntu1804-EncoMPASS-2024-10-29.sif>'
+hpcsingmod	    'module load singularity'
+
+
+# RUN
+#pdbmirror	    '<path to folder to store PDB files from the RCSB>'
+#mmcifmirror	'<path to folder to store mmcif files from the RCSB>/'
+#me		        'missing_entries.txt' # Missing entries
+
+# EXECUTION
+del             '<path to file with pdb codes that should be ignored, e.g. delete_list.txt>'
+forcedb         '<path to file that insists on particular source for the structure of a pdb code, e.g. replace_list.txt>'
+
+# STRUCTURES
+# for testing 
+#sample_structures      ['1fe1', '6dhe', '6dhf', '6dhg', '1okc']
+
+# XML folder and web archive
+squash		    False
+waout		    '<where to store the squashfs archive>'
+wa		        '<name of web archive (.xml files)>'
+
+# OTHER OPTIONS
+with_UNK	    True
+
+# EXTERNAL PATHS (NOT IN SINGULARITY)
+#pymol_path	    '<path to local pymol binary>'
+hpc_pymol_path	'<path to HPC pymol binary>'
+#dssp_path	    '<path to mkdssp>'
+
+
+
