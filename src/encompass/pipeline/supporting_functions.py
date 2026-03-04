@@ -3322,8 +3322,23 @@ def convert_coords_to_enc(locations, str_data, checkpoint_filename):
     write_checkpoint(str_data, locations['FSYSPATH']['cache'] + checkpoint_filename)
     return str_data
 
-# redundant?
+
+def clean_url(url):
+    add_https = False
+    if "https://" in url:
+        add_https = True
+        url = url.replace("https://","")
+
+    url = '/'.join([x for x in url.split() if x])
+
+    if add_https:
+        url = "https://" + url
+
+    return url
+
+
 def uncompressed_download(url, local_filename):
+    url = clean_url(url)
     try:
         print("Expecting",url)
         response = urllib.request.urlopen(url)
@@ -3339,6 +3354,7 @@ def uncompressed_download(url, local_filename):
 
 def iterate_download(url, local_filename, check="", gzipped=False, thr_log_status="ERROR"):
     this_name = iterate_download.__name__
+    url = clean_url(url)
 
     #print("GET", url)
     
@@ -3393,6 +3409,7 @@ def download_url_file(url, local_filename, zipped=False):
     Returns:
         bool: True if the operation was successful, False otherwise.
     """
+    url = clean_url(url)
     try:
         print(f"Attempting to download: {url}")
         response = urllib.request.urlopen(url)
@@ -3436,6 +3453,7 @@ def download_url_file(url, local_filename, zipped=False):
 
 def iterate_gzip_download(url, local_filename): # TODO possibly obsolete
     this_name = 'iterate_gzip_download'
+    url = clean_url(url)
     max_r = 0.5#3
     error_found = False
     downloaded = False

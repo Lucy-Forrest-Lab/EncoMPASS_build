@@ -200,8 +200,8 @@ uniprot_url : http://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_cha
 opm_primary_root : https://lomize-group-opm.herokuapp.com/primary_structures/
 opm_primary_url : https://lomize-group-opm.herokuapp.com/types/1/primary_structures?pageSize=100000
 opm_secondary_url : https://lomize-group-opm.herokuapp.com/secondary_representations?pageSize=1000000
-opm_coord_root : https://opm-assets.storage.googleapis.com/pdb/
-# opm_coord_root : https://opm-back.cc.lehigh.edu/opm-backend/primary_structures/pdb_file/
+opm_coord_root : https://opm-assets.storage.googleapis.com/pdb
+# opm_coord_root : https://opm-back.cc.lehigh.edu/opm-backend/primary_structures/pdb_file
 pdbdb_mmcif : https://files.wwpdb.org/pub/pdb/data/structures/divided/mmCIF
 pdbdb_pdb : https://files.wwpdb.org/pub/pdb/data/structures/divided/pdb
 pdbtm_root : http://pdbtm.unitmp.org/api/v1/entry/
